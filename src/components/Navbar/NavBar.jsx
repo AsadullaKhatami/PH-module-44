@@ -55,7 +55,7 @@ const NavBar = () => {
         }  duration-1000 px-10`}
       >
         {nameOfPaths.map((route) => (
-          <li>{route.name}</li>
+          <li key={route.id}>{route.name}</li>
         ))}
       </ul>
       <div className="h-20 flex justify-between items-center px-10 bg-white relative">
