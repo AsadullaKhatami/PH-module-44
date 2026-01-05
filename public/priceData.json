@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "name": "Basic",
+    "prices": 9.99,
+    "currency": "USD",
+    "billing": "monthly",
+    "description":"unleash the power of automation",
+    "features": [
+      "Access to basic features",
+      "5 projects",
+      "Email support",
+      "Community access"
+    ],
+    "isPopular": false
+  },
+  {
+    "id": 2,
+    "name": "Standard",
+    "prices": 19.99,
+    "currency": "USD",
+    "billing": "monthly",
+    "description": "automate tools to take your work to the next level.",
+    "features": [
+      "All Basic features",
+      "20 projects",
+      "Priority email support",
+      "Analytics dashboard",
+      "Custom themes"
+    ],
+    "isPopular": true
+  },
+  {
+    "id": 3,
+    "name": "Premium",
+    "prices": 39.99,
+    "currency": "USD",
+    "billing": "monthly",
+    "description": "automation plus enterprise-arade features",
+    "features": [
+      "All Standard features",
+      "Unlimited projects",
+      "24/7 support",
+      "Advanced analytics",
+      "Team collaboration",
+      "API access"
+    ],
+    "isPopular": false
+  }
+]

@@ -76,7 +76,7 @@ const NavBar = () => {
             <Link key={route.id} route={route}></Link>
           ))}
         </ul>
-        <button>Buy Now</button>
+        <button className="border rounded-xl p-3 hover:bg-gray-400 hover:text-white">Subscription</button>
       </div>
     </nav>
   );
